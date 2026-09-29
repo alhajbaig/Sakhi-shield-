@@ -1,0 +1,221 @@
+/* Staggered Sidebar Animation and Typography Styles (Adapted from React Bits StaggeredMenu) */
+
+.sidebar-container {
+  --sm-accent: #F62440;
+  --sm-active-bg: #FFE5BF;
+  --sm-hover-bg: rgba(255, 242, 219, 0.7);
+  --sm-item-font: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --sm-mono-font: "Space Grotesk", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Header Brand Interactive Spin */
+.sm-brand-mark {
+  will-change: transform;
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sm-brand-link:hover .sm-brand-mark {
+  transform: rotate(225deg) scale(1.15);
+}
+
+/* Nav Section Headers */
+.sm-section-title {
+  font-family: var(--sm-mono-font);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #78716C;
+}
+
+/* Nav Item Masking & Overflow */
+.sm-item-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Nav Item Link Base */
+.sm-nav-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 8px;
+  font-family: var(--sm-item-font);
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #57534E;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  transition:
+    background-color 0.22s ease,
+    color 0.22s ease,
+    transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.25s ease,
+    box-shadow 0.22s ease;
+}
+
+/* Active Nav Item */
+.sm-nav-item.is-active {
+  background-color: var(--sm-active-bg);
+  color: #1C1917;
+  font-weight: 700;
+  box-shadow: 0 1px 2px rgba(28, 25, 23, 0.05);
+}
+
+/* Inactive Hover Nav Item */
+.sm-nav-item:not(.is-active):hover {
+  background-color: var(--sm-hover-bg);
+  color: #1C1917;
+  transform: translateX(2px);
+}
+
+/* Item Label Sliding */
+.sm-item-label {
+  display: inline-block;
+  will-change: transform;
+  transform-origin: 50% 100%;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sm-nav-item:hover .sm-item-label {
+  transform: translateX(3px);
+}
+
+/* Icon Micro-Interaction */
+.sm-item-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  color: #78716C;
+  will-change: transform;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), color 0.22s ease;
+}
+
+.sm-nav-item.is-active .sm-item-icon {
+  color: var(--sm-accent);
+}
+
+.sm-nav-item:hover .sm-item-icon {
+  color: var(--sm-accent);
+  transform: scale(1.12) rotate(8deg);
+}
+
+/* Active Beacon Indicator Dot */
+.sm-active-beacon {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background-color: var(--sm-accent);
+  flex-shrink: 0;
+  position: relative;
+}
+
+.sm-active-beacon::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  background-color: var(--sm-accent);
+  opacity: 0.35;
+  animation: smBeaconPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes smBeaconPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+/* Numbering Counter */
+.sm-item-num {
+  font-family: var(--sm-mono-font);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #A8A29E;
+  margin-left: auto;
+  transition: color 0.22s ease, opacity 0.22s ease, transform 0.22s ease;
+  user-select: none;
+}
+
+.sm-nav-item.is-active .sm-item-num {
+  color: var(--sm-accent);
+  font-weight: 700;
+}
+
+.sm-nav-item:not(.is-active) .sm-item-num {
+  opacity: 0;
+  transform: translateX(4px);
+}
+
+.sm-nav-item:not(.is-active):hover .sm-item-num {
+  opacity: 0.75;
+  transform: translateX(0);
+  color: #78716C;
+}
+
+/* StaggeredMenu List Sibling Dimming on Hover */
+.sm-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.sm-nav-list:hover .sm-nav-item:not(:hover) {
+  opacity: 0.45;
+  transform: scale(0.99);
+}
+
+.sm-nav-list .sm-nav-item:hover {
+  opacity: 1 !important;
+}
+
+/* SITE ↗ Link hover */
+.sm-site-link {
+  font-family: var(--sm-mono-font);
+  font-size: 11px;
+  color: #78716C;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  transition: color 0.2s ease;
+}
+
+.sm-site-link:hover {
+  color: #1C1917;
+}
+
+.sm-site-link .sm-site-arrow {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sm-site-link:hover .sm-site-arrow {
+  transform: translate(2px, -2px);
+}
+
+/* Profile Card micro-interaction */
+.sm-profile-card {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.sm-profile-card:hover {
+  background-color: rgba(255, 229, 191, 0.7);
+}
+
+.sm-profile-card:hover .sm-profile-chevron {
+  transform: translateX(3px);
+  color: #1C1917;
+}

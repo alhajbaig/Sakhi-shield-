@@ -1,0 +1,192 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #FFFAF3;
+  --color-cream: #FFF2DB;
+  --color-peach: #FFE5BF;
+  --color-red: #F62440;
+  --color-deep-red: #D91F38;
+  --color-ink: #171515;
+  --color-muted-ink: #625B55;
+  --color-line: rgba(23, 21, 21, 0.12);
+
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Space Grotesk", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --ivory: #FFFAF3;
+  --cream: #FFF2DB;
+  --peach: #FFE5BF;
+  --red: #F62440;
+  --deep-red: #D91F38;
+  --ink: #171515;
+  --muted-ink: #625B55;
+  --line: rgba(23, 21, 21, 0.12);
+  --border-subtle: rgba(23, 21, 21, 0.12);
+  --border-medium: rgba(23, 21, 21, 0.22);
+}
+
+/* Custom Base Rules */
+html {
+  font-family: var(--font-sans);
+  background-color: var(--ivory);
+  color: var(--ink);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Base Typography: DM Serif Display as primary editorial headline font across the website */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+}
+
+/* Highlighting things stay in Space Grotesk */
+.font-technical, [data-highlight], .font-mono {
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.12;
+}
+
+/* Restrained Focus States */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #F62440;
+  outline-offset: 2px;
+}
+
+/* Heartbeat pulse animation */
+@keyframes heartPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.85;
+  }
+}
+
+@keyframes radiusPulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 0.15;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.6;
+  }
+}
+
+.animate-heartbeat {
+  animation: heartPulse 2.4s ease-in-out infinite;
+}
+
+.animate-safety-radius {
+  animation: radiusPulse 3s ease-in-out infinite;
+}
+
+/* Subtle line styling */
+.hairline-b {
+  border-bottom: 1px solid var(--line);
+}
+
+.hairline-t {
+  border-top: 1px solid var(--line);
+}
+
+.hairline-l {
+  border-left: 1px solid var(--line);
+}
+
+.hairline-r {
+  border-right: 1px solid var(--line);
+}
+
+.hairline-all {
+  border: 1px solid var(--line);
+}
+
+/* Emergency strobe / flash keyframes for SOS alert overlay */
+@keyframes emergencyStrobe {
+  0%, 100% {
+    border-color: rgba(246, 36, 64, 0.9);
+    box-shadow: inset 0 0 80px rgba(246, 36, 64, 0.3), 0 0 40px rgba(246, 36, 64, 0.6);
+  }
+  25% {
+    border-color: rgba(245, 158, 11, 0.9);
+    box-shadow: inset 0 0 80px rgba(245, 158, 11, 0.2), 0 0 40px rgba(245, 158, 11, 0.5);
+  }
+  50% {
+    border-color: rgba(246, 36, 64, 1);
+    box-shadow: inset 0 0 120px rgba(246, 36, 64, 0.5), 0 0 60px rgba(246, 36, 64, 0.9);
+  }
+  75% {
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: inset 0 0 60px rgba(255, 255, 255, 0.15), 0 0 30px rgba(246, 36, 64, 0.7);
+  }
+}
+
+@keyframes emergencyBgPulse {
+  0%, 100% {
+    background-color: rgba(18, 0, 3, 0.98);
+  }
+  50% {
+    background-color: rgba(50, 0, 8, 1);
+  }
+}
+
+@keyframes emergencyTextGlow {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(246, 36, 64, 0.6), 0 0 30px rgba(246, 36, 64, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(246, 36, 64, 1), 0 0 60px rgba(246, 36, 64, 0.6), 0 0 100px rgba(246, 36, 64, 0.3);
+  }
+}
+
+@keyframes emergencySlideFlash {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+.animate-emergency-strobe {
+  animation: emergencyStrobe 1.2s ease-in-out infinite;
+  border: 3px solid rgba(246, 36, 64, 0.9);
+}
+
+.animate-emergency-bg {
+  animation: emergencyBgPulse 2s ease-in-out infinite;
+}
+
+.animate-emergency-glow {
+  animation: emergencyTextGlow 1.5s ease-in-out infinite;
+}
+
+.animate-emergency-flash {
+  animation: emergencySlideFlash 2s linear infinite;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "sakhishield",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "tsx src/tests/safetyLogic.test.ts && tsx src/tests/trustedCircle.test.ts && tsx src/tests/safetyCopilot.test.ts && tsx src/tests/digitalSafety.test.ts && tsx src/tests/incidentVault.test.ts && tsx src/tests/privacySovereignty.test.ts && tsx src/tests/settings.test.ts && tsx src/tests/helpSafetyResources.test.ts",
+    "test:safety": "tsx src/tests/safetyLogic.test.ts",
+    "test:circle": "tsx src/tests/trustedCircle.test.ts",
+    "test:copilot": "tsx src/tests/safetyCopilot.test.ts",
+    "test:digital": "tsx src/tests/digitalSafety.test.ts",
+    "test:vault": "tsx src/tests/incidentVault.test.ts",
+    "test:privacy": "tsx src/tests/privacySovereignty.test.ts",
+    "test:settings": "tsx src/tests/settings.test.ts",
+    "test:resources": "tsx src/tests/helpSafetyResources.test.ts",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.1",
+    "@types/three": "^0.186.0",
+    "firebase": "^12.19.0",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.47.0",
+    "mapbox-gl": "^3.31.0",
+    "postprocessing": "^6.39.5",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "oxlint": "^1.81.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

@@ -1,0 +1,993 @@
+{
+  "circles": [
+    {
+      "id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "name": "Family Circle",
+      "description": "Primary trusted guardian circle",
+      "owner_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "invite_code": "SC-BUWFSC",
+      "join_mode": "APPROVAL_REQUIRED",
+      "status": "ACTIVE",
+      "created_at": "2026-09-24T21:00:37.640Z",
+      "updated_at": "2026-09-29T10:49:10.486Z",
+      "member_count": 3
+    }
+  ],
+  "members": [
+    {
+      "id": "mem_8med77i",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9834643556",
+      "user_email": "alhajbaig2006@gmail.com",
+      "role": "OWNER",
+      "status": "APPROVED",
+      "joined_at": "2026-09-24T21:00:37.640Z",
+      "updated_at": "2026-09-29T10:49:10.487Z",
+      "is_online": true
+    }
+  ],
+  "alerts": [
+    {
+      "id": "0b59864f-92f7-423f-b711-0c9088bf039e",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_1790283661444",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:6f6331f3-db14-4b9b-9891-3ac1c7e0bd33:sos_1790283661444:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-24T21:01:01.444Z",
+      "updated_at": "2026-09-24T21:01:32.403Z",
+      "recipients": [
+        {
+          "id": "rcp_mf3p3b6",
+          "alert_id": "0b59864f-92f7-423f-b711-0c9088bf039e",
+          "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9834643556",
+          "status": "SENT",
+          "sent_at": "2026-09-24T21:01:01.444Z"
+        }
+      ],
+      "resolved_at": "2026-09-24T21:01:32.403Z"
+    },
+    {
+      "id": "81fc540e-585b-4d4b-9fa8-684aef069d1d",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_1790283696979",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:6f6331f3-db14-4b9b-9891-3ac1c7e0bd33:sos_1790283696979:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-24T21:01:36.979Z",
+      "updated_at": "2026-09-24T21:02:12.574Z",
+      "recipients": [
+        {
+          "id": "rcp_0hihgx0",
+          "alert_id": "81fc540e-585b-4d4b-9fa8-684aef069d1d",
+          "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9834643556",
+          "status": "SENT",
+          "sent_at": "2026-09-24T21:01:36.979Z"
+        }
+      ],
+      "resolved_at": "2026-09-24T21:02:12.574Z"
+    },
+    {
+      "id": "64ac94ce-0add-49a2-ba5e-811ec22dd5fe",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_1790283923729",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_1790283923729:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-24T21:05:23.730Z",
+      "updated_at": "2026-09-25T04:51:00.680Z",
+      "recipients": [
+        {
+          "id": "rcp_x5turbl",
+          "alert_id": "64ac94ce-0add-49a2-ba5e-811ec22dd5fe",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-24T21:05:23.730Z"
+        }
+      ],
+      "resolved_at": "2026-09-25T04:51:00.680Z"
+    },
+    {
+      "id": "0010bdf1-4444-4ed7-8fb3-15380efc6884",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "walk_sos_1790309079560",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:walk_sos_1790309079560:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested.",
+      "location_shared": true,
+      "latitude": 21.18234321896793,
+      "longitude": 79.05753214634044,
+      "location_accuracy": 101,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T04:04:39.560Z",
+      "updated_at": "2026-09-25T05:19:48.793Z",
+      "recipients": [
+        {
+          "id": "rcp_r63bqw9",
+          "alert_id": "0010bdf1-4444-4ed7-8fb3-15380efc6884",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-25T04:04:39.560Z"
+        }
+      ],
+      "resolved_at": "2026-09-25T05:19:48.793Z"
+    },
+    {
+      "id": "f31ebfc3-230f-4e1b-b707-6fafb1d99be7",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_1790309268200",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_1790309268200:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T04:07:48.200Z",
+      "updated_at": "2026-09-25T05:27:49.333Z",
+      "recipients": [
+        {
+          "id": "rcp_619o3nr",
+          "alert_id": "f31ebfc3-230f-4e1b-b707-6fafb1d99be7",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-25T04:07:48.200Z"
+        }
+      ],
+      "resolved_at": "2026-09-25T05:27:49.333Z"
+    },
+    {
+      "id": "582e4f09-8854-4cd4-9c95-97cb0e6bd57f",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_1790309272320",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_1790309272320:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T04:07:52.320Z",
+      "updated_at": "2026-09-25T05:27:58.447Z",
+      "recipients": [
+        {
+          "id": "rcp_73lkw5v",
+          "alert_id": "582e4f09-8854-4cd4-9c95-97cb0e6bd57f",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-25T04:07:52.320Z"
+        }
+      ],
+      "resolved_at": "2026-09-25T05:27:58.447Z"
+    },
+    {
+      "id": "63750606-7c5d-44a1-b1ff-781ecc7f5adf",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_1790309275443",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_1790309275443:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T04:07:55.443Z",
+      "updated_at": "2026-09-25T05:28:35.408Z",
+      "recipients": [
+        {
+          "id": "rcp_2fek2vk",
+          "alert_id": "63750606-7c5d-44a1-b1ff-781ecc7f5adf",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-25T04:07:55.443Z"
+        }
+      ],
+      "resolved_at": "2026-09-25T05:28:35.408Z"
+    },
+    {
+      "id": "2e415151-37a2-47f5-8101-da3db607cc40",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_1790309288070",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_1790309288070:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T04:08:08.070Z",
+      "updated_at": "2026-09-25T05:30:00.000Z",
+      "resolved_at": "2026-09-25T05:30:00.000Z",
+      "recipients": [
+        {
+          "id": "rcp_m6y96td",
+          "alert_id": "2e415151-37a2-47f5-8101-da3db607cc40",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "ACKNOWLEDGED",
+          "sent_at": "2026-09-25T04:08:08.070Z",
+          "acknowledged_at": "2026-09-25T05:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "dd0df90c-97f8-4045-b024-92706f6c8716",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "walk_final_checkin_1790311220330",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:walk_final_checkin_1790311220330:missed_checkin",
+      "alert_type": "missed_checkin",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY: Alhaj Baig missed both safety check-ins. Location: https://www.google.com/maps?q=21.182347175266116,79.05752999003562",
+      "location_shared": true,
+      "latitude": 21.182347175266116,
+      "longitude": 79.05752999003562,
+      "location_accuracy": 108,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T04:40:20.330Z",
+      "updated_at": "2026-09-25T05:30:00.000Z",
+      "resolved_at": "2026-09-25T05:30:00.000Z",
+      "recipients": [
+        {
+          "id": "rcp_qicav44",
+          "alert_id": "dd0df90c-97f8-4045-b024-92706f6c8716",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "ACKNOWLEDGED",
+          "sent_at": "2026-09-25T04:40:20.330Z",
+          "acknowledged_at": "2026-09-25T05:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e8f1be17-0f18-4bde-bf63-feaccfdf4ed1",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T05:41:13.146Z",
+      "updated_at": "2026-09-25T05:41:19.042Z",
+      "recipients": [
+        {
+          "id": "rcp_c2n0oqi",
+          "alert_id": "e8f1be17-0f18-4bde-bf63-feaccfdf4ed1",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-25T05:41:13.146Z"
+        },
+        {
+          "id": "rcp_c79jr1a",
+          "alert_id": "e8f1be17-0f18-4bde-bf63-feaccfdf4ed1",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-25T05:41:13.146Z"
+        }
+      ],
+      "resolved_at": "2026-09-25T05:41:19.042Z"
+    },
+    {
+      "id": "0215fc65-9a35-4515-91c9-67d703be9dc3",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "triggered_by_user_name": "user",
+      "source_event_id": "walk_sos_JRN-BH6ZJ7C",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:ea70a06e-df93-40ea-865f-7466955a5594:walk_sos_JRN-BH6ZJ7C:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: user needs help! Location: https://www.google.com/maps?q=21.182334105516805,79.0575272446383",
+      "location_shared": true,
+      "latitude": 21.182334105516805,
+      "longitude": 79.0575272446383,
+      "location_accuracy": 115,
+      "status": "RESOLVED",
+      "created_at": "2026-09-25T05:43:47.050Z",
+      "updated_at": "2026-09-25T05:44:29.051Z",
+      "recipients": [
+        {
+          "id": "rcp_djpbgxv",
+          "alert_id": "0215fc65-9a35-4515-91c9-67d703be9dc3",
+          "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9834643556",
+          "status": "SENT",
+          "sent_at": "2026-09-25T05:43:47.050Z"
+        },
+        {
+          "id": "rcp_fk57z0m",
+          "alert_id": "0215fc65-9a35-4515-91c9-67d703be9dc3",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-25T05:43:47.050Z"
+        }
+      ],
+      "acknowledged_at": "2026-09-25T05:44:00.144Z",
+      "resolved_at": "2026-09-25T05:44:29.051Z"
+    },
+    {
+      "id": "dde8793c-660b-4c12-8d18-b34f874c5210",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "walk_sos_JRN-RN22MXP",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:walk_sos_JRN-RN22MXP:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig needs help! Location: https://www.google.com/maps?q=21.004839345317237,79.04782743817671",
+      "location_shared": true,
+      "latitude": 21.004839345317237,
+      "longitude": 79.04782743817671,
+      "location_accuracy": 109,
+      "status": "RESOLVED",
+      "created_at": "2026-09-26T05:37:47.880Z",
+      "updated_at": "2026-09-26T05:38:23.903Z",
+      "recipients": [
+        {
+          "id": "rcp_5kketey",
+          "alert_id": "dde8793c-660b-4c12-8d18-b34f874c5210",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-26T05:37:47.880Z"
+        },
+        {
+          "id": "rcp_fvyuyza",
+          "alert_id": "dde8793c-660b-4c12-8d18-b34f874c5210",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-26T05:37:47.880Z"
+        }
+      ],
+      "resolved_at": "2026-09-26T05:38:23.903Z"
+    },
+    {
+      "id": "8ee8da09-f8b4-4146-bfca-eed61866692d",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-27T16:58:03.390Z",
+      "updated_at": "2026-09-27T16:58:14.644Z",
+      "recipients": [
+        {
+          "id": "rcp_6cklktb",
+          "alert_id": "8ee8da09-f8b4-4146-bfca-eed61866692d",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-27T16:58:03.390Z"
+        },
+        {
+          "id": "rcp_w2qotoy",
+          "alert_id": "8ee8da09-f8b4-4146-bfca-eed61866692d",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-27T16:58:03.390Z"
+        }
+      ],
+      "resolved_at": "2026-09-27T16:58:14.644Z"
+    },
+    {
+      "id": "38af2f7d-3efb-427a-adbc-f7e2c4a9dd95",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-27T18:39:32.529Z",
+      "updated_at": "2026-09-27T18:39:39.855Z",
+      "recipients": [
+        {
+          "id": "rcp_grsszrx",
+          "alert_id": "38af2f7d-3efb-427a-adbc-f7e2c4a9dd95",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:39:32.529Z"
+        },
+        {
+          "id": "rcp_ge9o0th",
+          "alert_id": "38af2f7d-3efb-427a-adbc-f7e2c4a9dd95",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:39:32.529Z"
+        }
+      ],
+      "resolved_at": "2026-09-27T18:39:39.855Z"
+    },
+    {
+      "id": "6a88fe19-aeb4-4d2a-81a6-dc6cbd257311",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-27T18:39:44.343Z",
+      "updated_at": "2026-09-27T18:39:52.270Z",
+      "recipients": [
+        {
+          "id": "rcp_82q5v46",
+          "alert_id": "6a88fe19-aeb4-4d2a-81a6-dc6cbd257311",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:39:44.343Z"
+        },
+        {
+          "id": "rcp_jka9in0",
+          "alert_id": "6a88fe19-aeb4-4d2a-81a6-dc6cbd257311",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:39:44.343Z"
+        }
+      ],
+      "resolved_at": "2026-09-27T18:39:52.270Z"
+    },
+    {
+      "id": "0f2d43b5-d2a6-48af-a545-d8c4098689dc",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-27T18:40:23.657Z",
+      "updated_at": "2026-09-27T18:40:32.672Z",
+      "recipients": [
+        {
+          "id": "rcp_004h6ij",
+          "alert_id": "0f2d43b5-d2a6-48af-a545-d8c4098689dc",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:40:23.657Z"
+        },
+        {
+          "id": "rcp_kp25l0c",
+          "alert_id": "0f2d43b5-d2a6-48af-a545-d8c4098689dc",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:40:23.657Z"
+        }
+      ],
+      "resolved_at": "2026-09-27T18:40:32.672Z"
+    },
+    {
+      "id": "bdeafaf0-8f1f-4a92-b6df-a731b07da9ba",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-27T18:54:19.804Z",
+      "updated_at": "2026-09-27T18:54:22.480Z",
+      "recipients": [
+        {
+          "id": "rcp_nexb3k5",
+          "alert_id": "bdeafaf0-8f1f-4a92-b6df-a731b07da9ba",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:54:19.804Z"
+        },
+        {
+          "id": "rcp_pkuf8cy",
+          "alert_id": "bdeafaf0-8f1f-4a92-b6df-a731b07da9ba",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-27T18:54:19.804Z"
+        }
+      ],
+      "resolved_at": "2026-09-27T18:54:22.480Z"
+    },
+    {
+      "id": "4e97c2c6-c995-406c-9425-b318d3fca72a",
+      "circle_id": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429",
+      "triggered_by_user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "triggered_by_user_name": "Alhaj Baig",
+      "source_event_id": "sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "idempotency_key": "f93fbf2e-225f-4ef8-bd4a-1ca1e1be5429:d67201ec-b2c2-46f4-a6ea-7eb252b885ef:sos_d67201ec-b2c2-46f4-a6ea-7eb252b885ef:manual_sos",
+      "alert_type": "manual_sos",
+      "severity": "CRITICAL",
+      "message": "🚨 EMERGENCY SOS: Alhaj Baig is in DANGER! Immediate check-in requested!",
+      "location_shared": false,
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null,
+      "status": "RESOLVED",
+      "created_at": "2026-09-28T07:42:15.349Z",
+      "updated_at": "2026-09-28T07:42:23.829Z",
+      "recipients": [
+        {
+          "id": "rcp_u28invn",
+          "alert_id": "4e97c2c6-c995-406c-9425-b318d3fca72a",
+          "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+          "user_name": "Alhaj Baig",
+          "user_phone": "9405247466",
+          "status": "SENT",
+          "sent_at": "2026-09-28T07:42:15.349Z"
+        },
+        {
+          "id": "rcp_f0p5y5w",
+          "alert_id": "4e97c2c6-c995-406c-9425-b318d3fca72a",
+          "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+          "user_name": "user",
+          "user_phone": "9876543210",
+          "status": "SENT",
+          "sent_at": "2026-09-28T07:42:15.349Z"
+        }
+      ],
+      "resolved_at": "2026-09-28T07:42:23.829Z"
+    }
+  ],
+  "recipients": [
+    {
+      "id": "rcp_75xtg02",
+      "alert_id": "0b59864f-92f7-423f-b711-0c9088bf039e",
+      "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9834643556",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-24T21:01:01.695Z",
+      "acknowledged_at": "2026-09-24T21:01:15.159Z"
+    },
+    {
+      "id": "rcp_mf3p3b6",
+      "alert_id": "0b59864f-92f7-423f-b711-0c9088bf039e",
+      "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9834643556",
+      "status": "SENT",
+      "sent_at": "2026-09-24T21:01:01.444Z"
+    },
+    {
+      "id": "rcp_spzt2r2",
+      "alert_id": "81fc540e-585b-4d4b-9fa8-684aef069d1d",
+      "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9834643556",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-24T21:01:37.248Z",
+      "acknowledged_at": "2026-09-24T21:01:42.215Z"
+    },
+    {
+      "id": "rcp_0hihgx0",
+      "alert_id": "81fc540e-585b-4d4b-9fa8-684aef069d1d",
+      "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9834643556",
+      "status": "SENT",
+      "sent_at": "2026-09-24T21:01:36.979Z"
+    },
+    {
+      "id": "rcp_xch0zbd",
+      "alert_id": "64ac94ce-0add-49a2-ba5e-811ec22dd5fe",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-24T21:05:23.935Z",
+      "acknowledged_at": "2026-09-24T21:05:30.318Z"
+    },
+    {
+      "id": "rcp_x5turbl",
+      "alert_id": "64ac94ce-0add-49a2-ba5e-811ec22dd5fe",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-24T21:05:23.730Z"
+    },
+    {
+      "id": "rcp_o0ffnok",
+      "alert_id": "0010bdf1-4444-4ed7-8fb3-15380efc6884",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-25T04:04:40.172Z",
+      "acknowledged_at": "2026-09-25T04:48:55.747Z"
+    },
+    {
+      "id": "rcp_r63bqw9",
+      "alert_id": "0010bdf1-4444-4ed7-8fb3-15380efc6884",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T04:04:39.560Z"
+    },
+    {
+      "id": "rcp_mzkvlml",
+      "alert_id": "f31ebfc3-230f-4e1b-b707-6fafb1d99be7",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-25T04:07:48.478Z",
+      "acknowledged_at": "2026-09-25T04:48:59.798Z"
+    },
+    {
+      "id": "rcp_619o3nr",
+      "alert_id": "f31ebfc3-230f-4e1b-b707-6fafb1d99be7",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T04:07:48.200Z"
+    },
+    {
+      "id": "rcp_rhx1jri",
+      "alert_id": "582e4f09-8854-4cd4-9c95-97cb0e6bd57f",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-25T04:07:52.558Z",
+      "acknowledged_at": "2026-09-25T04:49:02.687Z"
+    },
+    {
+      "id": "rcp_73lkw5v",
+      "alert_id": "582e4f09-8854-4cd4-9c95-97cb0e6bd57f",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T04:07:52.320Z"
+    },
+    {
+      "id": "rcp_jr1t5ap",
+      "alert_id": "63750606-7c5d-44a1-b1ff-781ecc7f5adf",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-25T04:07:55.710Z",
+      "acknowledged_at": "2026-09-25T04:49:05.324Z"
+    },
+    {
+      "id": "rcp_2fek2vk",
+      "alert_id": "63750606-7c5d-44a1-b1ff-781ecc7f5adf",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T04:07:55.443Z"
+    },
+    {
+      "id": "rcp_hlsa28d",
+      "alert_id": "2e415151-37a2-47f5-8101-da3db607cc40",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-25T04:08:08.552Z",
+      "acknowledged_at": "2026-09-25T04:49:09.878Z"
+    },
+    {
+      "id": "rcp_m6y96td",
+      "alert_id": "2e415151-37a2-47f5-8101-da3db607cc40",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T04:08:08.070Z"
+    },
+    {
+      "id": "rcp_do0vioc",
+      "alert_id": "dd0df90c-97f8-4045-b024-92706f6c8716",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-25T04:40:20.745Z",
+      "acknowledged_at": "2026-09-25T04:49:13.996Z"
+    },
+    {
+      "id": "rcp_qicav44",
+      "alert_id": "dd0df90c-97f8-4045-b024-92706f6c8716",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T04:40:20.330Z"
+    },
+    {
+      "id": "rcp_c2n0oqi",
+      "alert_id": "e8f1be17-0f18-4bde-bf63-feaccfdf4ed1",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T05:41:13.146Z"
+    },
+    {
+      "id": "rcp_c79jr1a",
+      "alert_id": "e8f1be17-0f18-4bde-bf63-feaccfdf4ed1",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-25T05:41:13.146Z"
+    },
+    {
+      "id": "rcp_djpbgxv",
+      "alert_id": "0215fc65-9a35-4515-91c9-67d703be9dc3",
+      "user_id": "d67201ec-b2c2-46f4-a6ea-7eb252b885ef",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9834643556",
+      "status": "ACKNOWLEDGED",
+      "sent_at": "2026-09-25T05:43:47.050Z",
+      "acknowledged_at": "2026-09-25T05:44:00.144Z"
+    },
+    {
+      "id": "rcp_fk57z0m",
+      "alert_id": "0215fc65-9a35-4515-91c9-67d703be9dc3",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-25T05:43:47.050Z"
+    },
+    {
+      "id": "rcp_5kketey",
+      "alert_id": "dde8793c-660b-4c12-8d18-b34f874c5210",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-26T05:37:47.880Z"
+    },
+    {
+      "id": "rcp_fvyuyza",
+      "alert_id": "dde8793c-660b-4c12-8d18-b34f874c5210",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-26T05:37:47.880Z"
+    },
+    {
+      "id": "rcp_6cklktb",
+      "alert_id": "8ee8da09-f8b4-4146-bfca-eed61866692d",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-27T16:58:03.390Z"
+    },
+    {
+      "id": "rcp_w2qotoy",
+      "alert_id": "8ee8da09-f8b4-4146-bfca-eed61866692d",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-27T16:58:03.390Z"
+    },
+    {
+      "id": "rcp_grsszrx",
+      "alert_id": "38af2f7d-3efb-427a-adbc-f7e2c4a9dd95",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:39:32.529Z"
+    },
+    {
+      "id": "rcp_ge9o0th",
+      "alert_id": "38af2f7d-3efb-427a-adbc-f7e2c4a9dd95",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:39:32.529Z"
+    },
+    {
+      "id": "rcp_82q5v46",
+      "alert_id": "6a88fe19-aeb4-4d2a-81a6-dc6cbd257311",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:39:44.343Z"
+    },
+    {
+      "id": "rcp_jka9in0",
+      "alert_id": "6a88fe19-aeb4-4d2a-81a6-dc6cbd257311",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:39:44.343Z"
+    },
+    {
+      "id": "rcp_004h6ij",
+      "alert_id": "0f2d43b5-d2a6-48af-a545-d8c4098689dc",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:40:23.657Z"
+    },
+    {
+      "id": "rcp_kp25l0c",
+      "alert_id": "0f2d43b5-d2a6-48af-a545-d8c4098689dc",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:40:23.657Z"
+    },
+    {
+      "id": "rcp_nexb3k5",
+      "alert_id": "bdeafaf0-8f1f-4a92-b6df-a731b07da9ba",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:54:19.804Z"
+    },
+    {
+      "id": "rcp_pkuf8cy",
+      "alert_id": "bdeafaf0-8f1f-4a92-b6df-a731b07da9ba",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-27T18:54:19.804Z"
+    },
+    {
+      "id": "rcp_u28invn",
+      "alert_id": "4e97c2c6-c995-406c-9425-b318d3fca72a",
+      "user_id": "6f6331f3-db14-4b9b-9891-3ac1c7e0bd33",
+      "user_name": "Alhaj Baig",
+      "user_phone": "9405247466",
+      "status": "SENT",
+      "sent_at": "2026-09-28T07:42:15.349Z"
+    },
+    {
+      "id": "rcp_f0p5y5w",
+      "alert_id": "4e97c2c6-c995-406c-9425-b318d3fca72a",
+      "user_id": "ea70a06e-df93-40ea-865f-7466955a5594",
+      "user_name": "user",
+      "user_phone": "9876543210",
+      "status": "SENT",
+      "sent_at": "2026-09-28T07:42:15.349Z"
+    }
+  ]
+}
